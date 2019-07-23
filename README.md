@@ -1,14 +1,34 @@
 # Click Shrink Effect
-[![](https://jitpack.io/v/realpacific/click-shrink-effect.svg)](https://jitpack.io/#realpacific/click-shrink-effect)
+<p>This library add <b>a shrinking effect on any 'View' </b>while clicking.</p>
 
-This library add a shrinking effect on any 'View' while clicking.
+
+<div>
+  <p align="center">Built with ❤︎ by
+	  <a href="https://github.com/Hardik8184">Hardik Dungrani</a></p>
+</div>
 
 ## Demo
 
 <img src="screens/screen.gif" height="400" width="250"/>
 
 
-## Usage
+## 💻 Installation
+Add this in your app's build.gradle file:
+```groovy
+
+allprojects {
+   repositories {
+	    maven { url 'https://jitpack.io' }
+   }
+}
+
+dependencies {
+    implementation 'com.hardik.clickshrinkeffect:clickshrinkeffect:1.0.0'
+}
+```
+
+## ❔ Usage
+**Basic Usage**
 
 Kotlin:
 ```
@@ -28,48 +48,20 @@ new ClickShrinkEffect(cardView);
 ```
 
 
+# 📃 License
 
+    Copyright 2019 Hardik Dungrani
 
-## Installation
-In build.gradle
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
 
-```
-allprojects {
-   repositories {
-	...
-	maven { url 'https://jitpack.io' }
-   }
-}
+       http://www.apache.org/licenses/LICENSE-2.0
 
-dependencies {
-    implementation 'com.hardik.clickshrinkeffect:clickshrinkeffect:1.0.0'
-}
-```
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
 
-
-## License
-```
-MIT License
-
-Copyright (c) 2019 Hardik Dungrani
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-```
-
+### If you like the library, please click on the ★ Star button at the top 😊
