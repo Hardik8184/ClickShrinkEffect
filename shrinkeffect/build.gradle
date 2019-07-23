@@ -63,3 +63,14 @@ ext {
   licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
   allLicenses = ["Apache-2.0"]
 }
+
+//Add these lines to publish library to bintray. This is the readymade scripts made by github user nuuneoi to make uploading to bintray easy.
+//Place it at the end of the file
+if (project.rootProject.file('local.properties').exists()) {
+  apply from: 'https://raw.githubusercontent.com/Hardik8184/JCenter-Gradle-Scripts/master/install.gradle'
+  apply from: 'https://raw.githubusercontent.com/Hardik8184/JCenter-Gradle-Scripts/master/bintray.gradle'
+}
+
+repositories {
+  mavenCentral()
+}
