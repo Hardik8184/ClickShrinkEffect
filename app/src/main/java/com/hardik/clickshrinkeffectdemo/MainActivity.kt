@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
     setContentView(R.layout.activity_main)
 
     fab.applyClickShrink()
-    card_view.applyClickShrink()
+    cardView.applyClickShrink()
     textView.applyClickShrink()
     imageView.applyClickShrink()
   }

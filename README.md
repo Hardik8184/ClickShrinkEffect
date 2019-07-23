@@ -1,7 +1,7 @@
 # Click Shrink Effect
 [![](https://jitpack.io/v/realpacific/click-shrink-effect.svg)](https://jitpack.io/#realpacific/click-shrink-effect)
 
-A simple library to add a temporary shrinking effect on `View` while clicking. 
+This library add a shrinking effect on any 'View' while clicking.
 
 ## Demo
 
@@ -12,20 +12,19 @@ A simple library to add a temporary shrinking effect on `View` while clicking.
 
 Kotlin:
 ```
- button.applyClickShrink()
- fab.applyClickShrink()
- card_view.applyClickShrink()
- textview.applyClickShrink()
- image_view.applyClickShrink()
+  fab.applyClickShrink()
+  cardView.applyClickShrink()
+  textView.applyClickShrink()
+  imageView.applyClickShrink()
 ```
 
 Java:
 ```
-ClickShrinkEffectKt.applyClickShrink(button);
 ClickShrinkEffectKt.applyClickShrink(fab);
+ClickShrinkEffectKt.applyClickShrink(cardView);
     // OR
-new ClickShrinkEffect(button);
 new ClickShrinkEffect(fab);
+new ClickShrinkEffect(cardView);
 ```
 
 
@@ -43,7 +42,7 @@ allprojects {
 }
 
 dependencies {
-    implementation 'com.github.realpacific:click-shrink-effect:1.0'
+    implementation 'com.hardik.clickshrinkeffect:clickshrinkeffect:1.0.0'
 }
 ```
 
@@ -52,7 +51,7 @@ dependencies {
 ```
 MIT License
 
-Copyright (c) 2019 Prashant Barahi
+Copyright (c) 2019 Hardik Dungrani
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
