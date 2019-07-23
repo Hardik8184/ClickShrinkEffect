@@ -1,0 +1,65 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.jfrog.bintray'
+apply plugin: 'com.github.dcendents.android-maven'
+
+android {
+  compileSdkVersion 29
+
+  defaultConfig {
+    minSdkVersion 16
+    targetSdkVersion 29
+    versionCode 1
+    versionName "1.0"
+
+    testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    consumerProguardFiles 'consumer-rules.pro'
+  }
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_1_8
+    targetCompatibility JavaVersion.VERSION_1_8
+  }
+
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+    }
+  }
+}
+
+dependencies {
+  implementation fileTree(dir: 'libs', include: ['*.jar'])
+  implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+  implementation 'androidx.appcompat:appcompat:1.0.2'
+  implementation 'androidx.core:core-ktx:1.0.2'
+  testImplementation 'junit:junit:4.12'
+  androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+  androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+}
+
+ext {
+
+  bintrayRepo = "ClickShrinkEffect"
+  bintrayName = "com.hardik.clickshrinkeffect"
+
+  libraryName = 'clickshrinkeffect'
+
+  publishedGroupId = 'com.hardik.clickshrinkeffect'
+  artifact = 'clickshrinkeffect'
+  libraryVersion = '1.0.0'
+
+  libraryDescription = 'This library add a shrinking effect on any View while clicking.'
+
+  siteUrl = 'https://github.com/Hardik8184/ClickShrinkEffect'
+  gitUrl = 'https://github.com/Hardik8184/ClickShrinkEffect.git'
+
+  developerId = 'hardikdungrani'
+  developerName = 'Hardik Dungrani'
+  developerEmail = 'hardikdungrani8@gmail.com'
+
+  licenseName = 'The Apache Software License, Version 2.0'
+  licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+  allLicenses = ["Apache-2.0"]
+}
