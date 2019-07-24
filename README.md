@@ -9,7 +9,7 @@
 
 ## Demo
 
-<img src="screens/screen.gif" height="400" width="250"/>
+<img src="screens/shrinkeffect_screen.gif" height="400" width="250"/>
 
 
 ## 💻 Installation
