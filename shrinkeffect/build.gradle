@@ -47,7 +47,7 @@ ext {
   libraryName = 'clickshrinkeffect'
 
   publishedGroupId = 'com.hardik.clickshrinkeffect'
-  artifact = 'clickshrinkeffect'
+  artifact = 'shrinkeffect'
   libraryVersion = '1.0.0'
 
   libraryDescription = 'This library add a shrinking effect on any View while clicking.'

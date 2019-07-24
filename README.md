@@ -23,7 +23,7 @@ allprojects {
 }
 
 dependencies {
-    implementation 'com.hardik.clickshrinkeffect:clickshrinkeffect:1.0.0'
+    implementation 'com.hardik.clickshrinkeffect:shrinkeffect:1.0.0'
 }
 ```
 
