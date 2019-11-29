@@ -1,6 +1,8 @@
 # Click Shrink Effect
 <p>This library add <b>a shrinking effect on any 'View' </b>while clicking.</p>
 
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/Hardik8184/ClickShrinkEffect/blob/master/LICENSE) &nbsp;&nbsp;&nbsp;&nbsp;
+[![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-MultiProgressBar-green.svg?style=flat )]( https://android-arsenal.com/details/1/7966 )
 
 <div>
   <p align="center">Built with ❤︎ by
