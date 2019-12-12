@@ -17,3 +17,5 @@ class MainActivity : AppCompatActivity() {
     imageView.applyClickShrink()
   }
 }
+
+// https://play.google.com/store/apps/details?id=com.mobirix.swipebrick2
